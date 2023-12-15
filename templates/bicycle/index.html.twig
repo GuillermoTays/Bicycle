@@ -1,0 +1,5 @@
+{# templates/bicycle/index.html.twig #}
+
+<h1>{{ bicycle.brand }} Bicycle</h1>
+<p>Color: {{ bicycle.color }}</p>
+<p>Working Parts: {{ bicycle.getWorkingParts()|join(', ') }}</p>
