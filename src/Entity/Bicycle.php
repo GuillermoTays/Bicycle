@@ -14,6 +14,16 @@ class Bicycle
         $this->color = $color;
     }
 
+    public function getBrand()
+    {
+      return $this->brand;
+    }
+
+    public function getColor()
+    {
+      return $this->color;
+    }
+
     public function addWorkingPart(string $part)
     {
         $this->workingParts[] = $part;
