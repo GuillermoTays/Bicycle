@@ -4,9 +4,9 @@ namespace App\Entity;
 
 class Bicycle
 {
-    public $brand;
-    public $color;
-    public $workingParts = [];
+    private $brand;
+    private $color;
+    private $workingParts = [];
 
     public function __construct(string $brand, string $color)
     {
